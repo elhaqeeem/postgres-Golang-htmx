@@ -1,0 +1,1 @@
+/Applications/Postgres.app/Contents/Versions/16/bin/postgres "-D" "/Users/mac/Downloads/url-shortener-echo-templ-htmx-main/_postgres_app_data⁠" "-p" "5432" "-c" "shared_preload_libraries=auth_permission_dialog" "-c" "auth_permission_dialog.dialog_executable_path=/Applications/Postgres.app/Contents/MacOS/PostgresPermissionDialog"

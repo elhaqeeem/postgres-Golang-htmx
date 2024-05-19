@@ -1,0 +1,46 @@
+2024-05-19 11:21:24.923 WIB [1400] LOG:  starting PostgreSQL 16.3 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-05-19 11:21:24.926 WIB [1400] LOG:  listening on IPv6 address "::1", port 5432
+2024-05-19 11:21:24.927 WIB [1400] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-19 11:21:24.927 WIB [1400] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-19 11:21:24.931 WIB [1403] LOG:  database system was shut down at 2024-05-19 11:21:24 WIB
+2024-05-19 11:21:24.937 WIB [1400] LOG:  database system is ready to accept connections
+2024-05-19 11:22:02.681 WIB [1459] LOG:  invalid length of startup packet
+2024-05-19 11:22:02.690 WIB [1460] LOG:  invalid length of startup packet
+2024-05-19 11:22:02.695 WIB [1461] LOG:  invalid length of startup packet
+2024-05-19 11:23:38.965 WIB [1400] LOG:  received fast shutdown request
+2024-05-19 11:23:38.966 WIB [1400] LOG:  aborting any active transactions
+2024-05-19 11:23:38.970 WIB [1400] LOG:  background worker "logical replication launcher" (PID 1406) exited with exit code 1
+2024-05-19 11:23:38.970 WIB [1401] LOG:  shutting down
+2024-05-19 11:23:38.970 WIB [1401] LOG:  checkpoint starting: shutdown immediate
+2024-05-19 11:23:39.047 WIB [1401] LOG:  checkpoint complete: wrote 980 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.050 s, sync=0.026 s, total=0.078 s; sync files=317, longest=0.001 s, average=0.001 s; distance=4561 kB, estimate=4561 kB; lsn=0/197A650, redo lsn=0/197A650
+2024-05-19 11:23:39.055 WIB [1400] LOG:  database system is shut down
+2024-05-19 11:23:41.852 WIB [1491] LOG:  starting PostgreSQL 16.3 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-05-19 11:23:41.855 WIB [1491] LOG:  listening on IPv6 address "::1", port 5432
+2024-05-19 11:23:41.855 WIB [1491] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-19 11:23:41.856 WIB [1491] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-19 11:23:41.864 WIB [1494] LOG:  database system was shut down at 2024-05-19 11:23:39 WIB
+2024-05-19 11:23:41.869 WIB [1491] LOG:  database system is ready to accept connections
+2024-05-19 11:24:37.566 WIB [1555] FATAL:  role "shortify-db" does not exist
+2024-05-19 11:24:59.483 WIB [1584] FATAL:  role "admin" does not exist
+2024-05-19 11:25:28.965 WIB [1597] LOG:  invalid length of startup packet
+2024-05-19 11:25:28.971 WIB [1598] LOG:  invalid length of startup packet
+2024-05-19 11:25:28.976 WIB [1599] LOG:  invalid length of startup packet
+2024-05-19 11:28:41.983 WIB [1492] LOG:  checkpoint starting: time
+2024-05-19 11:28:45.027 WIB [1492] LOG:  checkpoint complete: wrote 33 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.035 s, sync=0.003 s, total=3.047 s; sync files=7, longest=0.002 s, average=0.001 s; distance=140 kB, estimate=140 kB; lsn=0/199D8D8, redo lsn=0/199D8A0
+2024-05-19 11:28:52.527 WIB [1709] FATAL:  database "shortify-db" does not exist
+2024-05-19 11:36:22.305 WIB [1491] LOG:  received fast shutdown request
+2024-05-19 11:36:22.306 WIB [1491] LOG:  aborting any active transactions
+2024-05-19 11:36:22.309 WIB [1491] LOG:  background worker "logical replication launcher" (PID 1497) exited with exit code 1
+2024-05-19 11:36:22.309 WIB [1492] LOG:  shutting down
+2024-05-19 11:36:22.310 WIB [1492] LOG:  checkpoint starting: shutdown immediate
+2024-05-19 11:36:22.316 WIB [1492] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.007 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=126 kB; lsn=0/199D988, redo lsn=0/199D988
+2024-05-19 11:36:22.322 WIB [1491] LOG:  database system is shut down
+2024-05-19 11:50:51.551 WIB [1985] LOG:  starting PostgreSQL 16.3 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-05-19 11:50:51.554 WIB [1985] LOG:  listening on IPv6 address "::1", port 5432
+2024-05-19 11:50:51.554 WIB [1985] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-19 11:50:51.555 WIB [1985] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-19 11:50:51.563 WIB [1989] LOG:  database system was shut down at 2024-05-19 11:36:22 WIB
+2024-05-19 11:50:51.572 WIB [1985] LOG:  database system is ready to accept connections
+2024-05-19 11:54:09.612 WIB [2095] FATAL:  role "admin" does not exist
+2024-05-19 11:55:51.566 WIB [1987] LOG:  checkpoint starting: time
+2024-05-19 11:55:51.578 WIB [1987] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.001 s, total=0.015 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/199DA70, redo lsn=0/199DA38
