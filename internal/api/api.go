@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/a-h/templ"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/service"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/service"
 	"github.com/go-playground/validator/v10"
 	"github.com/gorilla/sessions"
 	"github.com/labstack/echo-contrib/session"

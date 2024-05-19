@@ -11,7 +11,7 @@ import "io"
 import "bytes"
 
 import (
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/model"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/model"
 )
 
 func CardList(host, tz string, links []model.Link) templ.Component {

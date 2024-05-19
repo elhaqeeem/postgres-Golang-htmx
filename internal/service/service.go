@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/entity"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/model"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/repository"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/entity"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/model"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/repository"
 )
 
 // Service is the business logic of the application.

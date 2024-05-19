@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/entity"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/model"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/entity"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/model"
 	"golang.org/x/crypto/bcrypt"
 )
 

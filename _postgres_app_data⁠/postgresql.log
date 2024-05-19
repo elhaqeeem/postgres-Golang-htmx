@@ -44,3 +44,10 @@
 2024-05-19 11:54:09.612 WIB [2095] FATAL:  role "admin" does not exist
 2024-05-19 11:55:51.566 WIB [1987] LOG:  checkpoint starting: time
 2024-05-19 11:55:51.578 WIB [1987] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.001 s, total=0.015 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/199DA70, redo lsn=0/199DA38
+2024-05-19 12:09:08.953 WIB [1985] LOG:  received fast shutdown request
+2024-05-19 12:09:08.954 WIB [1985] LOG:  aborting any active transactions
+2024-05-19 12:09:08.957 WIB [1985] LOG:  background worker "logical replication launcher" (PID 1992) exited with exit code 1
+2024-05-19 12:09:08.958 WIB [1987] LOG:  shutting down
+2024-05-19 12:09:08.958 WIB [1987] LOG:  checkpoint starting: shutdown immediate
+2024-05-19 12:09:08.963 WIB [1987] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.001 s, total=0.006 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/199DB20, redo lsn=0/199DB20
+2024-05-19 12:09:08.969 WIB [1985] LOG:  database system is shut down

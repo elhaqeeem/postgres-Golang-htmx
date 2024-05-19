@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/entity"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/entity"
 )
 
 const (

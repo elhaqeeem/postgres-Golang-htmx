@@ -13,9 +13,9 @@ import "bytes"
 import (
 	"strings"
 
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/model"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/views/components"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/views/layout"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/model"
+	"github.com/elhaqeeem/postgres-Golang-htmx/views/components"
+	"github.com/elhaqeeem/postgres-Golang-htmx/views/layout"
 )
 
 func Dashboard(titlePage, host, tz string, links []model.Link) templ.Component {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/emarifer/url-shortener-echo-templ-htmx/database"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/api"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/repository"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/service"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/settings"
+	"github.com/elhaqeeem/postgres-Golang-htmx/database"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/api"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/repository"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/service"
+	"github.com/elhaqeeem/postgres-Golang-htmx/settings"
 	"github.com/labstack/echo/v4"
 	"go.uber.org/fx"
 )

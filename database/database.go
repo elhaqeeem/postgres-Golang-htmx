@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/emarifer/url-shortener-echo-templ-htmx/settings"
+	"github.com/elhaqeeem/postgres-Golang-htmx/settings"
 	"github.com/jmoiron/sqlx"
 
 	_ "github.com/lib/pq"

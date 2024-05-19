@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/service"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/views/auth_views"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/service"
+	"github.com/elhaqeeem/postgres-Golang-htmx/views/auth_views"
 
 	"github.com/gorilla/sessions"
 	"github.com/labstack/echo-contrib/session"

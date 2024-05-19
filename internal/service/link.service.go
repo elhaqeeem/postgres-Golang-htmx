@@ -5,9 +5,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/emarifer/url-shortener-echo-templ-htmx/encryption"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/entity"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/model"
+	"github.com/elhaqeeem/postgres-Golang-htmx/encryption"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/entity"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/model"
 )
 
 var (

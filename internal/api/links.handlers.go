@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/emarifer/url-shortener-echo-templ-htmx/encryption"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/api/dto"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/entity"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/internal/service"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/views/components"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/views/links_views"
+	"github.com/elhaqeeem/postgres-Golang-htmx/encryption"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/api/dto"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/entity"
+	"github.com/elhaqeeem/postgres-Golang-htmx/internal/service"
+	"github.com/elhaqeeem/postgres-Golang-htmx/views/components"
+	"github.com/elhaqeeem/postgres-Golang-htmx/views/links_views"
 
 	"github.com/labstack/echo-contrib/session"
 	"github.com/labstack/echo/v4"
