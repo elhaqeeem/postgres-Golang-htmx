@@ -71,7 +71,7 @@ func Home(fromProtected bool) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</a> <a hx-swap=\"transition:true\" href=\"https://github.com/emarifer/url-shortener-echo-templ-htmx\" target=\"_blank\" class=\"badge badge-ghost px-6 py-4 hover:scale-[1.1] text-lg font-thin\">")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</a> <a hx-swap=\"transition:true\" href=\"https://github.com/elhaqeeem/postgres-Golang-htmx\" target=\"_blank\" class=\"badge badge-ghost px-6 py-4 hover:scale-[1.1] text-lg font-thin\">")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
