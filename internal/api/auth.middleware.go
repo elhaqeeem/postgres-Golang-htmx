@@ -13,7 +13,7 @@ func (a *API) authMiddleware(next echo.HandlerFunc) echo.HandlerFunc {
 			fromProtected = false
 			username = ""
 
-			return echo.NewHTTPError(echo.ErrUnauthorized.Code, "Please provide valid credentials")
+			return echo.NewHTTPError(echo.ErrUnauthorized.Code, "Please provider valid credentials")
 		}
 
 		if userId, ok := sess.Values[user_id_key].(string); ok && len(userId) != 0 {
