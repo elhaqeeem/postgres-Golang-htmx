@@ -4,3 +4,36 @@
 2024-05-24 04:41:41.200 WIB [18784] WARNING:  could not create listen socket for "localhost"
 2024-05-24 04:41:41.201 WIB [18784] FATAL:  could not create any TCP/IP sockets
 2024-05-24 04:41:41.208 WIB [18784] LOG:  database system is shut down
+2024-05-24 08:11:57.163 WIB [13796] LOG:  starting PostgreSQL 16.3 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-05-24 08:11:57.168 WIB [13796] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-24 08:11:57.172 WIB [13796] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-05-24 08:11:57.193 WIB [13801] LOG:  database system was shut down at 2024-05-24 04:41:11 WIB
+2024-05-24 08:11:57.237 WIB [13796] LOG:  database system is ready to accept connections
+2024-05-24 08:12:26.538 WIB [13935] ERROR:  relation "links" does not exist at character 18
+2024-05-24 08:12:26.538 WIB [13935] STATEMENT:  
+			SELECT * FROM links
+			WHERE slug = $1;
+		
+2024-05-24 08:12:53.570 WIB [13935] ERROR:  relation "users" does not exist at character 65
+2024-05-24 08:12:53.570 WIB [13935] STATEMENT:  
+			SELECT
+				user_id,
+				email,
+				username,
+				password
+			FROM users
+			WHERE email = $1;	
+		
+2024-05-24 08:16:57.293 WIB [13799] LOG:  checkpoint starting: time
+2024-05-24 08:17:15.448 WIB [13799] LOG:  checkpoint complete: wrote 182 buffers (1.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=18.075 s, sync=0.061 s, total=18.156 s; sync files=100, longest=0.017 s, average=0.001 s; distance=807 kB, estimate=807 kB; lsn=0/15BAEA8, redo lsn=0/15BAE70
+2024-05-25 04:52:22.820 WIB [14951] LOG:  starting PostgreSQL 16.3 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-05-25 04:52:22.823 WIB [14951] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-25 04:52:22.842 WIB [14951] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-05-25 04:52:22.861 WIB [14956] LOG:  database system was interrupted; last known up at 2024-05-24 08:17:15 WIB
+2024-05-25 04:52:23.306 WIB [14956] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-05-25 04:52:23.321 WIB [14956] LOG:  redo starts at 0/15BAE70
+2024-05-25 04:52:23.321 WIB [14956] LOG:  invalid record length at 0/15BAF58: expected at least 24, got 0
+2024-05-25 04:52:23.321 WIB [14956] LOG:  redo done at 0/15BAF20 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-05-25 04:52:23.331 WIB [14954] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-05-25 04:52:23.352 WIB [14954] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.003 s, total=0.022 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15BAF58, redo lsn=0/15BAF58
+2024-05-25 04:52:23.363 WIB [14951] LOG:  database system is ready to accept connections

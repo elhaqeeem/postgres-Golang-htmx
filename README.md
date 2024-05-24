@@ -1,6 +1,6 @@
 <div align="center">
   
-<h2 align="center">Shortify</h2>
+<h1 align="center">Shortify</h1>
 
 <img src="doc/banner.png" width="100%">
 
