@@ -4,7 +4,6 @@ go 1.22.2
 
 require (
 	github.com/a-h/templ v0.2.680
-	github.com/emarifer/url-shortener-echo-templ-htmx v0.0.0-20240127202119-ca0e800f2117
 	github.com/go-playground/validator/v10 v10.20.0
 	github.com/gorilla/sessions v1.2.2
 	github.com/jmoiron/sqlx v1.4.0

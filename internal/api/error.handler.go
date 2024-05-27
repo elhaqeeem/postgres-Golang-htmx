@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/a-h/templ"
-	"github.com/emarifer/url-shortener-echo-templ-htmx/views/errors_pages"
+	"github.com/elhaqeeem/postgres-Golang-htmx/views/errors_pages"
 	"github.com/labstack/echo/v4"
 )
 
