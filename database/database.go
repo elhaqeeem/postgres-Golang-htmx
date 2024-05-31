@@ -16,7 +16,7 @@ func NewPostgresDB(
 	ctx context.Context, s *settings.Settings,
 ) (*sqlx.DB, error) {
 	connectionString := fmt.Sprintf(
-		"host=%s port=%d user=%s password=%s dbname=%s sslmode=disable",
+		"host=%s port=%d user=%s password=%s dbname=%s sslmode=require",
 		s.DB.Host,
 		s.DB.Port,
 		s.DB.User,

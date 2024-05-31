@@ -15,6 +15,7 @@ type DatabaseConfig struct {
 	User     string `yaml:"user"`
 	Password string `yaml:"password"`
 	Name     string `yaml:"name"`
+	Sslmode  string `yaml:"require"`
 }
 
 type Settings struct {
